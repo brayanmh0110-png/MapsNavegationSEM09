@@ -30,7 +30,7 @@ fun MiUbicacionScreen(navController: NavController) {
     // Estado del permiso de ubicación
     val permissionState = rememberPermissionState(permission = Manifest.permission.ACCESS_FINE_LOCATION)
 
-    Scaffold(
+    Scaffold(//
         topBar = {
             TopAppBar(
                 title = { Text("Mi Ubicación") },
